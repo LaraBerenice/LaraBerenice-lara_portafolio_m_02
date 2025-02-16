@@ -1,294 +1,212 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/public/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/daisyui@latest/dist/full.min.css"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="./src/script.js"></script>
-    <link rel="stylesheet" href="/src/styles.css" />
-    <title>Lara Berenice Ledesma</title>
 
-    <!-- AQUI SE NECESITAN AGREGAR COSAS PARA MEJORAR EL CEO -->
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/public/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@latest/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="./src/script.js"></script>
+  <link rel="stylesheet" href="/src/styles.css" />
+  <title> Lara Berenice Ledesma </title>
 
-  <meta
-    name="description"
-    content="Portafolio de Lara Berenice Ledesma, Analista de Datos y Especialista en Agronegocios y Gestión Ambiental. Descubre mis proyectos en visualización de datos, modelado de negocios agroindustriales y estrategias sostenibles."
-  />
-  <meta
-    name="keywords"
-    content="agronegocios, agroindustria, gestión ambiental, analista de datos, business intelligence, Power BI, Python, SQL, Tableau, dashboards interactivos, data analytics, sustentabilidad, economía circular, GIS, impacto ambiental, agro, agroexportación, estrategias agropecuarias"
-  />
+  <!-- AQUI SE NECESITAN AGREGAR COSAS PARA MEJORAR EL CEO -->
+  <meta name="description"
+    content="Portafolio de Lara Berenice Ledesma, Analista de Datos y Especialista en Agronegocios y Gestión Ambiental. Descubre mis proyectos en visualización de datos, modelado de negocios agroindustriales y estrategias sostenibles." />
+  <meta name="keywords"
+    content="agronegocios, agroindustria, gestión ambiental, analista de datos, business intelligence, Power BI, Python, SQL, Tableau, dashboards interactivos, data analytics, sustentabilidad, economía circular, GIS, impacto ambiental, agro, agroexportación, estrategias agropecuarias" />
   <meta name="author" content="Lara Berenice Ledesma" />
   <meta property="og:title" content="Lara Berenice Ledesma - Portafolio y Servicios" />
-  <meta
-    property="og:description"
-    content="Explora mis proyectos en análisis de datos, agroindustria y gestión ambiental. Optimización de procesos, estrategias sustentables y visualización de datos."
-  />
+  <meta property="og:description"
+    content="Explora mis proyectos en análisis de datos, agroindustria y gestión ambiental. Optimización de procesos, estrategias sustentables y visualización de datos." />
   <meta property="og:image" content=Imagenes/data.webp />
   <meta property="og:url" content="https://example.com" />
   <meta name="twitter:card" content="summary_large_image" />
-  
-  </head>
 
-  <body>
-    <!-- Div para ir al inicio -->
-<div id="inicio"></div>
+</head>
 
-<!-- Navbar -->
-<div class="navbar bg-base-100 sticky top-0 z-10">
-  <div class="navbar-start">
-    <a class="btn btn-ghost normal-case text-xl font-bold" href="#inicio">Portafolio</a>
-  </div>
-  <div class="navbar-center hidden lg:flex">
-    <ul class="menu menu-horizontal px-1">
-      <li><a class="font-bold" href="#perfil-profesional">Perfil profesional</a></li>
-      <li><a class="font-bold" href="#servicios-disponibles">Incumbencias y competencias profesionales</a></li>
-      <li><a class="font-bold" href="#proyectos">Proyectos como analista de datos</a></li>
-      <li><a class="font-bold" href="#competencias-tecnicas">Tecnologías</a></li>
-      <li>
-        <a class="font-bold" href="mailto:lara.ledesma12345@gmail.com?subject=Consulta%20Particular">Contacto</a>
-      </li>
-    </ul>
-  </div>
-</div>
+<body>
+  <!-- Div para ir al inicio -->
+  <div id="inicio"></div>
 
-      <!-- Cambio de tema -->
-
-
-    
-      <div class="navbar-end">
-        <div class="dropdown dropdown-end lg:hidden">
-          <label tabindex="0" class="btn btn-ghost lg:hidden">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-5 w-5"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M4 6h16M4 12h16m-7 6h7"
-              />
-            </svg>
-          </label>
-          <ul
-            tabindex="0"
-            class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
-          >
-            <li><a href="#perfil-profesional">Perfil profesional</a></li>
-            <li><a href="#servicios-disponibles"> Competencias profesionales </a></li>
-            <li><a href="#proyectos">Proyectos como analista de datos </a></li>
-            <li><a href="#competencias-tecnicas">Competencias técnicas</a></li>
-            <li>
-              <a
-                href="mailto:lara.ledesma12345@gmail.com?subject=Consulta%20Particular"
-                >Contacto</a
-              >
-            </li>
-          </ul>
-        </div>
-
-
-        <label class="swap swap-rotate">
-          <!-- this hidden checkbox controls the state -->
-          <input type="checkbox" class="theme-controller" value="light" />
-
-          <!-- sun icon -->
-          <svg
-            class="swap-off h-10 w-10 fill-current"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-          >
-            <path
-              d="M5.64,17l-.71.71a1,1,0,0,0,0,1.41,1,1,0,0,0,1.41,0l.71-.71A1,1,0,0,0,5.64,17ZM5,12a1,1,0,0,0-1-1H3a1,1,0,0,0,0,2H4A1,1,0,0,0,5,12Zm7-7a1,1,0,0,0,1-1V3a1,1,0,0,0-2,0V4A1,1,0,0,0,12,5ZM5.64,7.05a1,1,0,0,0,.7.29,1,1,0,0,0,.71-.29,1,1,0,0,0,0-1.41l-.71-.71A1,1,0,0,0,4.93,6.34Zm12,.29a1,1,0,0,0,.7-.29l.71-.71a1,1,0,1,0-1.41-1.41L17,5.64a1,1,0,0,0,0,1.41A1,1,0,0,0,17.66,7.34ZM21,11H20a1,1,0,0,0,0,2h1a1,1,0,0,0,0-2Zm-9,8a1,1,0,0,0-1,1v1a1,1,0,0,0,2,0V20A1,1,0,0,0,12,19ZM18.36,17A1,1,0,0,0,17,18.36l.71.71a1,1,0,0,0,1.41,0,1,1,0,0,0,0-1.41ZM12,6.5A5.5,5.5,0,1,0,17.5,12,5.51,5.51,0,0,0,12,6.5Zm0,9A3.5,3.5,0,1,1,15.5,12,3.5,3.5,0,0,1,12,15.5Z"
-            />
-          </svg>
-
-          <!-- moon icon -->
-          <svg
-            class="swap-on h-10 w-10 fill-current"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-          >
-            <path
-              d="M21.64,13a1,1,0,0,0-1.05-.14,8.05,8.05,0,0,1-3.37.73A8.15,8.15,0,0,1,9.08,5.49a8.59,8.59,0,0,1,.25-2A1,1,0,0,0,8,2.36,10.14,10.14,0,1,0,22,14.05,1,1,0,0,0,21.64,13Zm-9.5,6.69A8.14,8.14,0,0,1,7.08,5.22v.27A10.15,10.15,0,0,0,17.22,15.63a9.79,9.79,0,0,0,2.1-.22A8.11,8.11,0,0,1,12.14,19.73Z"
-            />
-          </svg>
-        </label>
-      </div>
+  <!-- Navbar -->
+  <div class="navbar bg-base-100 sticky top-0 z-10">
+    <div class="navbar-start">
+      <a class="btn btn-ghost normal-case text-xl font-bold" href="#inicio">Portafolio</a>
+    </div>
+    <div class="navbar-center hidden lg:flex">
+      <ul class="menu menu-horizontal px-1">
+        <li><a class="font-bold" href="#perfil-profesional">Perfil profesional</a></li>
+        <li><a class="font-bold" href="#servicios-disponibles">Incumbencias y competencias profesionales</a></li>
+        <li><a class="font-bold" href="#proyectos">Proyectos como analista de datos</a></li>
+        <li><a class="font-bold" href="#competencias-tecnicas">Tecnologías</a></li>
+        <li>
+          <a class="font-bold" href="mailto:lara.ledesma12345@gmail.com?subject=Consulta%20Particular">Contacto</a>
+        </li>
+      </ul>
     </div>
 
+    <!-- Cambio de tema -->
+    <div class="navbar-end">
 
-    
-    <!-- Perfil profesional - modific. portada-->
-    <section  id="perfil-profesional" style="background-image: url(/Imagenes//background.webp);" class="hero bg-base-200 min-h-screen">
-      <div class="bg-base-200 bg-opacity-50 border text-center p-2 rounded-lg" style="opacity: 0.9;">
-        <div class="max-w-6xl">
-          <h1 class="text-5xl font-bold">
-         Lara Berenice Ledesma
-          </h1>
-          <h2 class="text-3xl italic">
-            "📊🌱 Licenciada en Gestión de Agroempresas & Estudiante de Maestría en Gestión Ambiental 🌍"
-          </h2>
-          <!-- Enlaces -->
-          <ul class="menu menu-horizontal px-1">
-        <li>
-          <a
-            href="http://www.linkedin.com/in/lara-berenice-l-89527332b"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 24 24"
-          width="24"
-          height="24"
-          fill="#0077B5"
-            >
-          <path
-            d="M22.23 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.21 0 22.23 0zM7.06 20.45H3.56V9h3.5v11.45zM5.31 7.5c-1.12 0-2.03-.91-2.03-2.03s.91-2.03 2.03-2.03 2.03.91 2.03 2.03-.91 2.03-2.03 2.03zM20.45 20.45h-3.5v-5.6c0-1.34-.03-3.07-1.87-3.07-1.87 0-2.16 1.46-2.16 2.97v5.7h-3.5V9h3.36v1.56h.05c.47-.89 1.61-1.83 3.31-1.83 3.54 0 4.19 2.33 4.19 5.36v6.36z"
-          />
-            </svg>
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://github.com/LaraBerenice"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 24 24"
-          width="24"
-          height="24"
-          fill="base-200"
-            >
-          <path
-            d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.11.82-.26.82-.577v-2.17c-3.338.726-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.757-1.333-1.757-1.09-.745.083-.73.083-.73 1.205.084 1.84 1.237 1.84 1.237 1.07 1.835 2.807 1.305 3.492.997.108-.775.42-1.305.763-1.605-2.665-.3-5.467-1.335-5.467-5.93 0-1.31.467-2.38 1.235-3.22-.123-.303-.535-1.523.117-3.176 0 0 1.008-.322 3.3 1.23.957-.266 1.98-.398 3-.403 1.02.005 2.043.137 3 .403 2.29-1.552 3.297-1.23 3.297-1.23.653 1.653.24 2.873.118 3.176.77.84 1.233 1.91 1.233 3.22 0 4.61-2.807 5.625-5.48 5.92.43.37.823 1.1.823 2.22v3.293c0 .32.217.694.825.577C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12z"
-          />
-            </svg>
-          </a>
-        </li>
-          </ul>
-          <p class="py-6 text-start font-bold italic">
-            "Soy oriunda de Formosa Capital, una mujer joven, analítica y creativa, con un enfoque en
-             presentar información de manera clara y estratégica. Me gradué como Bachiller en Economía
-             y Gestión de las Organizaciones 📊, y obtuve la Licenciatura en Gestión de Agroempresas 🌱.
-             Actualmente, curso una Maestría en Gestión Ambiental 🌍. Mi especialidad en agronegocios me
-             permite evaluar y analizar" las cadenas de valor de las empresas en la industria 
-             agroalimentaria, para identificar puntos clave de gestión y mejorar su rentabilidad y
-             competitividad  dentro de estas cadenas 💡. A través de ajustes y estrategias sostenibles
-             para optimizar cada eslabón de la cadena, favoreciendo su eficiencia y respeto por el medio
-             ambiente ♻️."
-          </p>
-          
-        </div>
-      </div>
-    </section>
+      <label class="swap swap-rotate">
+        <!-- this hidden checkbox controls the state -->
+        <input type="checkbox" class="theme-controller" value="light" />
 
-    <!-- Servicios disponibles -->
-    <section id="servicios-disponibles" class="bg-base-200 py-8 min-h-screen">
-      <div class="text-center">
-        <h1 class="text-5xl font-bold mb-6"> Incumbencias y competencias profesionales </h1>
+        <!-- sun icon -->
+        <svg class="swap-off h-10 w-10 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path
+            d="M5.64,17l-.71.71a1,1,0,0,0,0,1.41,1,1,0,0,0,1.41,0l.71-.71A1,1,0,0,0,5.64,17ZM5,12a1,1,0,0,0-1-1H3a1,1,0,0,0,0,2H4A1,1,0,0,0,5,12Zm7-7a1,1,0,0,0,1-1V3a1,1,0,0,0-2,0V4A1,1,0,0,0,12,5ZM5.64,7.05a1,1,0,0,0,.7.29,1,1,0,0,0,.71-.29,1,1,0,0,0,0-1.41l-.71-.71A1,1,0,0,0,4.93,6.34Zm12,.29a1,1,0,0,0,.7-.29l.71-.71a1,1,0,1,0-1.41-1.41L17,5.64a1,1,0,0,0,0,1.41A1,1,0,0,0,17.66,7.34ZM21,11H20a1,1,0,0,0,0,2h1a1,1,0,0,0,0-2Zm-9,8a1,1,0,0,0-1,1v1a1,1,0,0,0,2,0V20A1,1,0,0,0,12,19ZM18.36,17A1,1,0,0,0,17,18.36l.71.71a1,1,0,0,0,1.41,0,1,1,0,0,0,0-1.41ZM12,6.5A5.5,5.5,0,1,0,17.5,12,5.51,5.51,0,0,0,12,6.5Zm0,9A3.5,3.5,0,1,1,15.5,12,3.5,3.5,0,0,1,12,15.5Z" />
+        </svg>
+
+        <!-- moon icon -->
+        <svg class="swap-on h-10 w-10 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path
+            d="M21.64,13a1,1,0,0,0-1.05-.14,8.05,8.05,0,0,1-3.37.73A8.15,8.15,0,0,1,9.08,5.49a8.59,8.59,0,0,1,.25-2A1,1,0,0,0,8,2.36,10.14,10.14,0,1,0,22,14.05,1,1,0,0,0,21.64,13Zm-9.5,6.69A8.14,8.14,0,0,1,7.08,5.22v.27A10.15,10.15,0,0,0,17.22,15.63a9.79,9.79,0,0,0,2.1-.22A8.11,8.11,0,0,1,12.14,19.73Z" />
+        </svg>
+      </label>
+
+      <div class="dropdown dropdown-end lg:hidden">
+        <label tabindex="0" class="btn btn-ghost lg:hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+          </svg>
+        </label>
+        <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+          <li><a href="#perfil-profesional">Perfil profesional</a></li>
+          <li><a href="#servicios-disponibles"> Competencias profesionales </a></li>
+          <li><a href="#proyectos">Proyectos como analista de datos </a></li>
+          <li><a href="#competencias-tecnicas">Competencias técnicas</a></li>
+          <li>
+            <a href="mailto:lara.ledesma12345@gmail.com?subject=Consulta%20Particular">Contacto</a>
+          </li>
+        </ul>
       </div>
 
-      <div class="flex flex-wrap justify-center gap-8">
-        <!-- Servicio 1 -->
-        <div
-          class="card w-80 bg-base-100 shadow-xl transition-all hover:scale-105 hover:shadow-2xl"
-        >
-          <figure class="p-4">
-            <img
-              src="https://www.shutterstock.com/image-vector/dashboard-app-ui-webpage-analytics-600nw-2485113535.jpg"
-              alt="Servicio 1"
-              class="w-full h-48 object-cover rounded-lg"
-            />
-          </figure>
-          <div class="card-body p-6">
-            <h2 class="text-2xl font-medium mb-4">  Elaboración de análisis descriptivos en dashboards </h2>
-            <p class="text-base mb-4"> Creación de informes visuales interactivos que resuman datos
-               ambientales y agroempresariales. Utilizando herramientas de visualización, como Power BI 
-               o Tableau, entre otras, para identificar tendencias, patrones y oportunidades de mejora en
-                la gestión de residuos, impacto ambiental y productividad agropecuaria.</p>
-          </div>
-        </div>
+    </div>
+  </div>
 
-        <div
-        class="card w-80 bg-base-100 shadow-xl transition-all hover:scale-105 hover:shadow-2xl"
-      >
+  </div>
+
+
+
+  <!-- Perfil profesional - modific. portada-->
+  <section id="perfil-profesional" style="background-image: url(/Imagenes//background.webp);"
+    class="hero bg-base-200 min-h-screen">
+    <div class="bg-base-200 bg-opacity-50 border text-center p-2 rounded-lg" style="opacity: 0.9;">
+      <div class="max-w-6xl">
+        <h1 class="text-5xl font-bold">
+          Lara Berenice Ledesma
+        </h1>
+        <h2 class="text-3xl italic">
+          "📊🌱 Licenciada en Gestión de Agroempresas & Estudiante de Maestría en Gestión Ambiental 🌍"
+        </h2>
+        <!-- Enlaces -->
+        <ul class="menu menu-horizontal px-1">
+          <li>
+            <a href="http://www.linkedin.com/in/lara-berenice-l-89527332b" target="_blank" rel="noopener noreferrer">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="#0077B5">
+                <path
+                  d="M22.23 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.21 0 22.23 0zM7.06 20.45H3.56V9h3.5v11.45zM5.31 7.5c-1.12 0-2.03-.91-2.03-2.03s.91-2.03 2.03-2.03 2.03.91 2.03 2.03-.91 2.03-2.03 2.03zM20.45 20.45h-3.5v-5.6c0-1.34-.03-3.07-1.87-3.07-1.87 0-2.16 1.46-2.16 2.97v5.7h-3.5V9h3.36v1.56h.05c.47-.89 1.61-1.83 3.31-1.83 3.54 0 4.19 2.33 4.19 5.36v6.36z" />
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/LaraBerenice" target="_blank" rel="noopener noreferrer">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="base-200">
+                <path
+                  d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.11.82-.26.82-.577v-2.17c-3.338.726-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.757-1.333-1.757-1.09-.745.083-.73.083-.73 1.205.084 1.84 1.237 1.84 1.237 1.07 1.835 2.807 1.305 3.492.997.108-.775.42-1.305.763-1.605-2.665-.3-5.467-1.335-5.467-5.93 0-1.31.467-2.38 1.235-3.22-.123-.303-.535-1.523.117-3.176 0 0 1.008-.322 3.3 1.23.957-.266 1.98-.398 3-.403 1.02.005 2.043.137 3 .403 2.29-1.552 3.297-1.23 3.297-1.23.653 1.653.24 2.873.118 3.176.77.84 1.233 1.91 1.233 3.22 0 4.61-2.807 5.625-5.48 5.92.43.37.823 1.1.823 2.22v3.293c0 .32.217.694.825.577C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12z" />
+              </svg>
+            </a>
+          </li>
+        </ul>
+        <p class="py-6 text-start font-bold italic">
+          "Soy oriunda de Formosa Capital, una mujer joven, analítica y creativa, con un enfoque en
+          presentar información de manera clara y estratégica. Me gradué como Bachiller en Economía
+          y Gestión de las Organizaciones 📊, y obtuve la Licenciatura en Gestión de Agroempresas 🌱.
+          Actualmente, curso una Maestría en Gestión Ambiental 🌍. Mi especialidad en agronegocios me
+          permite evaluar y analizar" las cadenas de valor de las empresas en la industria
+          agroalimentaria, para identificar puntos clave de gestión y mejorar su rentabilidad y
+          competitividad dentro de estas cadenas 💡. A través de ajustes y estrategias sostenibles
+          para optimizar cada eslabón de la cadena, favoreciendo su eficiencia y respeto por el medio
+          ambiente ♻️."
+        </p>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Servicios disponibles -->
+  <section id="servicios-disponibles" class="bg-base-200 py-8 min-h-screen">
+    <div class="text-center">
+      <h1 class="text-5xl font-bold mb-6"> Incumbencias y competencias profesionales </h1>
+    </div>
+
+    <div class="flex flex-wrap justify-center gap-8">
+      <!-- Servicio 1 -->
+      <div class="card w-80 bg-base-100 shadow-xl transition-all hover:scale-105 hover:shadow-2xl">
+        <figure class="p-4">
+          <img src="https://www.shutterstock.com/image-vector/dashboard-app-ui-webpage-analytics-600nw-2485113535.jpg"
+            alt="Servicio 1" class="w-full h-48 object-cover rounded-lg" />
+        </figure>
+        <div class="card-body p-6">
+          <h2 class="text-2xl font-medium mb-4"> Elaboración de análisis descriptivos en dashboards </h2>
+          <p class="text-base mb-4"> Creación de informes visuales interactivos que resuman datos
+            ambientales y agroempresariales. Utilizando herramientas de visualización, como Power BI
+            o Tableau, entre otras, para identificar tendencias, patrones y oportunidades de mejora en
+            la gestión de residuos, impacto ambiental y productividad agropecuaria.</p>
+        </div>
+      </div>
+
+      <div class="card w-80 bg-base-100 shadow-xl transition-all hover:scale-105 hover:shadow-2xl">
         <figure class="p-4">
           <img
             src="data:image/png;base64,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"
-            alt="Servicio 1"
-            class="w-full h-48 object-cover rounded-lg"
-          />
+            alt="Servicio 1" class="w-full h-48 object-cover rounded-lg" />
         </figure>
         <div class="card-body p-6">
           <h2 class="text-2xl font-medium mb-4"> Evaluación de impactos ambientales preliminares </h2>
           <p class="text-base mb-4"> Identificación y análisis inicial de los posibles impactos ambientales
-             de proyectos agroindustriales o de desarrollo, considerando aspectos legales, sociales y
-              económicos. Esto incluye la preparación de reportes que cumplan con normativas básicas.</p>
+            de proyectos agroindustriales o de desarrollo, considerando aspectos legales, sociales y
+            económicos. Esto incluye la preparación de reportes que cumplan con normativas básicas.</p>
         </div>
       </div>
 
-      <div
-        class="card w-80 bg-base-100 shadow-xl transition-all hover:scale-105 hover:shadow-2xl"
-      >
+      <div class="card w-80 bg-base-100 shadow-xl transition-all hover:scale-105 hover:shadow-2xl">
         <figure class="p-4">
-          <img
-            src="https://www.infoblancosobrenegro.com/uploads/noticias/5/2024/03/20240309115130_economia.jpg"
-            alt="Servicio 1"
-            class="w-full h-48 object-cover rounded-lg"
-          />
+          <img src="https://www.infoblancosobrenegro.com/uploads/noticias/5/2024/03/20240309115130_economia.jpg"
+            alt="Servicio 1" class="w-full h-48 object-cover rounded-lg" />
         </figure>
         <div class="card-body p-6">
           <h2 class="text-2xl font-medium mb-4"> Gestión de residuos y promoción de economía circular </h2>
           <p class="text-base mb-4"> Diseño de estrategias para la optimización de la gestión de residuos
-             en empresas agropecuarias y otros sectores. Implementación de prácticas de economía circular
+            en empresas agropecuarias y otros sectores. Implementación de prácticas de economía circular
             para reducir el impacto ambiental y maximizar el aprovechamiento de recursos. </p>
         </div>
       </div>
 
 
 
-      <div
-        class="card w-80 bg-base-100 shadow-xl transition-all hover:scale-105 hover:shadow-2xl"
-      >
+      <div class="card w-80 bg-base-100 shadow-xl transition-all hover:scale-105 hover:shadow-2xl">
         <figure class="p-4">
           <img
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAGOani9DRTfOIBuhWtQ07oMOhC9r_XKLNhK9neqvVYOCIx7Py6hlq_roLbQXazDPK0ZM&usqp=CAU"
-            alt="Servicio 1"
-            class="w-full h-48 object-cover rounded-lg"
-          />
+            alt="Servicio 1" class="w-full h-48 object-cover rounded-lg" />
         </figure>
         <div class="card-body p-6">
           <h2 class="text-2xl font-medium mb-4"> Análisis de costos en proyectos agropecuarios </h2>
           <p class="text-base mb-4"> Realización de análisis de costos detallados para proyectos de
-             inversión en el sector agropecuario. Esto incluye estimación de presupuestos,
-              análisis de rentabilidad y control de gestión financiera. </p>
+            inversión en el sector agropecuario. Esto incluye estimación de presupuestos,
+            análisis de rentabilidad y control de gestión financiera. </p>
         </div>
       </div>
 
 
-      <div
-        class="card w-80 bg-base-100 shadow-xl transition-all hover:scale-105 hover:shadow-2xl"
-      >
+      <div class="card w-80 bg-base-100 shadow-xl transition-all hover:scale-105 hover:shadow-2xl">
         <figure class="p-4">
-          <img
-            src="https://www.esan.edu.pe/images/blog/2018/11/21/1500x844-como-evaluar-proyecto-sostenible.jpg"
-            alt="Servicio 1"
-            class="w-full h-48 object-cover rounded-lg"
-          />
+          <img src="https://www.esan.edu.pe/images/blog/2018/11/21/1500x844-como-evaluar-proyecto-sostenible.jpg"
+            alt="Servicio 1" class="w-full h-48 object-cover rounded-lg" />
         </figure>
         <div class="card-body p-6">
           <h2 class="text-2xl font-medium mb-4"> Diseño y evaluación de proyectos de inversión sostenible </h2>
@@ -299,514 +217,370 @@
       </div>
 
 
-      <div
-        class="card w-80 bg-base-100 shadow-xl transition-all hover:scale-105 hover:shadow-2xl"
-      >
+      <div class="card w-80 bg-base-100 shadow-xl transition-all hover:scale-105 hover:shadow-2xl">
         <figure class="p-4">
           <img
             src="https://st3.depositphotos.com/1229718/18848/i/450/depositphotos_188481955-stock-photo-environment-law.jpg"
-            alt="Servicio 1"
-            class="w-full h-48 object-cover rounded-lg"
-          />
+            alt="Servicio 1" class="w-full h-48 object-cover rounded-lg" />
         </figure>
         <div class="card-body p-6">
           <h2 class="text-2xl font-medium mb-4"> Consultoría en cumplimiento de normativa ambiental </h2>
           <p class="text-base mb-4"> Asesoramiento a empresas para alinearse con la legislación ambiental
-             vigente en ambito nacional Argentino. Evaluación de políticas internas para
-              asegurar la sostenibilidad y el cumplimiento normativo </p>
+            vigente en ambito nacional Argentino. Evaluación de políticas internas para
+            asegurar la sostenibilidad y el cumplimiento normativo </p>
         </div>
       </div>
 
-      <div
-      class="card w-80 bg-base-100 shadow-xl transition-all hover:scale-105 hover:shadow-2xl"
-    >
-      <figure class="p-4">
-        <img
-          src="https://www.nuevatribuna.es/media/nuevatribuna/images/2015/10/08//2015100818455462376.jpg"
-          alt="Servicio 1"
-          class="w-full h-48 object-cover rounded-lg"
-        />
-      </figure>
-      <div class="card-body p-6">
-        <h2 class="text-2xl font-medium mb-4"> Estudios de pobreza y ambiente </h2>
-        <p class="text-base mb-4"> Realización de estudios que integren indicadores sociales,
-           económicos y ambientales para analizar la relación entre pobreza y degradación ambiental,
-          ofreciendo soluciones basadas en datos descriptivos. </p>
-      </div>
-    </div>
-
-    <div
-    class="card w-80 bg-base-100 shadow-xl transition-all hover:scale-105 hover:shadow-2xl"
-  >
-    <figure class="p-4">
-      <img
-        src="https://www.agromarketing.com.ar/wp-content/uploads/2020/09/cropped-stockvault-concept-of-search-engine-optimization-with-seo-icons180092-scaled-1-1536x1536.jpg"
-        alt="Servicio 1"
-        class="w-full h-48 object-cover rounded-lg"
-      />
-    </figure>
-    <div class="card-body p-6">
-      <h2 class="text-2xl font-medium mb-4"> Marketing y comercio agropecuario sostenible </h2>
-      <p class="text-base mb-4"> Diseño de estrategias de marketing que promuevan productos agropecuarios
-        sostenibles. Análisis de mercados internacionales para fomentar el comercio responsable y con bajo
-        impacto ambiental. </p>
-    </div>
-  </div>
-
-  <div
-  class="card w-80 bg-base-100 shadow-xl transition-all hover:scale-105 hover:shadow-2xl"
->
-  <figure class="p-4">
-    <img
-      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD7z5VqhQ19mk7LD_ACoUeMQd_4dUhv2LQKw&s"
-      alt="Servicio 1"
-      class="w-full h-48 object-cover rounded-lg"
-    />
-  </figure>
-  <div class="card-body p-6">
-    <h2 class="text-2xl font-medium mb-4">  Control de gestión en agronegocios </h2>
-    <p class="text-base mb-4"> Implementación de sistemas de control de gestión para empresas agropecuarias, ayudando a monitorear y optimizar procesos administrativos, operativos y financieros, con un enfoque en sostenibilidad.</p>
-  </div>
-</div>
-
-<div
-class="card w-80 bg-base-100 shadow-xl transition-all hover:scale-105 hover:shadow-2xl"
->
-<figure class="p-4">
-  <img
-    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6zSLfD85MgPCFIrJsc7CVBVBueZVRP3cMyw&s"
-    alt="Servicio 1"
-    class="w-full h-48 object-cover rounded-lg"
-  />
-</figure>
-<div class="card-body p-6">
-  <h2 class="text-2xl font-medium mb-4"> Análisis de macroeconomía aplicada a agroempresas y medio ambiente </h2>
-  <p class="text-base mb-4"> Evaluación del impacto de variables macroeconómicas en los sectores 
-    agropecuarios y de gestión ambiental, incluyendo análisis de políticas públicas y mercados
-    internacionales.</p>
-</div>
-</div>
-
+      <div class="card w-80 bg-base-100 shadow-xl transition-all hover:scale-105 hover:shadow-2xl">
+        <figure class="p-4">
+          <img src="https://www.nuevatribuna.es/media/nuevatribuna/images/2015/10/08//2015100818455462376.jpg"
+            alt="Servicio 1" class="w-full h-48 object-cover rounded-lg" />
+        </figure>
+        <div class="card-body p-6">
+          <h2 class="text-2xl font-medium mb-4"> Estudios de pobreza y ambiente </h2>
+          <p class="text-base mb-4"> Realización de estudios que integren indicadores sociales,
+            económicos y ambientales para analizar la relación entre pobreza y degradación ambiental,
+            ofreciendo soluciones basadas en datos descriptivos. </p>
+        </div>
       </div>
 
-<!-- Fin servicios  -->
+      <div class="card w-80 bg-base-100 shadow-xl transition-all hover:scale-105 hover:shadow-2xl">
+        <figure class="p-4">
+          <img
+            src="https://www.agromarketing.com.ar/wp-content/uploads/2020/09/cropped-stockvault-concept-of-search-engine-optimization-with-seo-icons180092-scaled-1-1536x1536.jpg"
+            alt="Servicio 1" class="w-full h-48 object-cover rounded-lg" />
+        </figure>
+        <div class="card-body p-6">
+          <h2 class="text-2xl font-medium mb-4"> Marketing y comercio agropecuario sostenible </h2>
+          <p class="text-base mb-4"> Diseño de estrategias de marketing que promuevan productos agropecuarios
+            sostenibles. Análisis de mercados internacionales para fomentar el comercio responsable y con bajo
+            impacto ambiental. </p>
+        </div>
+      </div>
 
-    </section>
+      <div class="card w-80 bg-base-100 shadow-xl transition-all hover:scale-105 hover:shadow-2xl">
+        <figure class="p-4">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD7z5VqhQ19mk7LD_ACoUeMQd_4dUhv2LQKw&s"
+            alt="Servicio 1" class="w-full h-48 object-cover rounded-lg" />
+        </figure>
+        <div class="card-body p-6">
+          <h2 class="text-2xl font-medium mb-4"> Control de gestión en agronegocios </h2>
+          <p class="text-base mb-4"> Implementación de sistemas de control de gestión para empresas agropecuarias,
+            ayudando a monitorear y optimizar procesos administrativos, operativos y financieros, con un enfoque en
+            sostenibilidad.</p>
+        </div>
+      </div>
 
-    <!-- Proyectos -->
-    <section id="proyectos" class="bg-base-200 min-h-screen py-10 border-box">
-      <h1 class="text-5xl font-bold mb-6 text-center"> Soluciones data analytics en sectores varios </h1>
+      <div class="card w-80 bg-base-100 shadow-xl transition-all hover:scale-105 hover:shadow-2xl">
+        <figure class="p-4">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6zSLfD85MgPCFIrJsc7CVBVBueZVRP3cMyw&s"
+            alt="Servicio 1" class="w-full h-48 object-cover rounded-lg" />
+        </figure>
+        <div class="card-body p-6">
+          <h2 class="text-2xl font-medium mb-4"> Análisis de macroeconomía aplicada a agroempresas y medio ambiente
+          </h2>
+          <p class="text-base mb-4"> Evaluación del impacto de variables macroeconómicas en los sectores
+            agropecuarios y de gestión ambiental, incluyendo análisis de políticas públicas y mercados
+            internacionales.</p>
+        </div>
+      </div>
 
-      <div class="flex flex-wrap justify-center gap-8">
-        
-        <div
-          class="card w-80 bg-base-100 shadow-xl transition-all hover:scale-105 hover:shadow-2xl"
-        >
-          <figure class="p-4">
-            <img
-              src="Imagenes/Brindis real.jpg"
-              alt="Proyecto 1"
-              class="w-full h-48 object-cover rounded-lg"
-            />
-          </figure>
-          <div class="card-body p-6">
-            <h2 class="text-2xl font-medium mb-4">  Dash - Anàlisis de inventarios</h2>
-            <p class="text-base mb-4">El proyecto busca mejorar la gestión de inventario, compras y ventas
+    </div>
+
+    <!-- Fin servicios  -->
+
+  </section>
+
+  <!-- Proyectos -->
+  <section id="proyectos" class="bg-base-200 min-h-screen py-10 border-box">
+    <h1 class="text-5xl font-bold mb-6 text-center"> Soluciones data analytics en sectores varios </h1>
+
+    <div class="flex flex-wrap justify-center gap-8">
+
+      <div class="card w-80 bg-base-100 shadow-xl transition-all hover:scale-105 hover:shadow-2xl">
+        <figure class="p-4">
+          <img src="Imagenes/Brindis real.jpg" alt="Proyecto 1" class="w-full h-48 object-cover rounded-lg" />
+        </figure>
+        <div class="card-body p-6">
+          <h2 class="text-2xl font-medium mb-4"> Dash - Anàlisis de inventarios</h2>
+          <p class="text-base mb-4">El proyecto busca mejorar la gestión de inventario, compras y ventas
             de Brindis Real, optimizando costos y evitando rotura de stock. Propone soluciones para una mejor
             respuesta a la demanda y mayor rentabilidad. Utiliza Python, SQL Server, GitHub y ClickUp para
             análisis de datos, almacenamiento y control de versiones.</p>
-            <a href="https://github.com/LaraBerenice/Analisis_de_Inventarios" target="_blank" class="btn btn-primary w-full">Más Información</a>
-          </div>
+          <a href="https://github.com/LaraBerenice/Analisis_de_Inventarios" target="_blank"
+            class="btn btn-primary w-full">Más Información</a>
         </div>
+      </div>
 
-        <div
-        class="card w-80 bg-base-100 shadow-xl transition-all hover:scale-105 hover:shadow-2xl"
-      >
+      <div class="card w-80 bg-base-100 shadow-xl transition-all hover:scale-105 hover:shadow-2xl">
         <figure class="p-4">
-          <img
-            src="Imagenes/MGV.png"
-            alt="Proyecto 2"
-            class="w-full h-48 object-cover rounded-lg"
-          />
+          <img src="Imagenes/MGV.png" alt="Proyecto 2" class="w-full h-48 object-cover rounded-lg" />
         </figure>
         <div class="card-body p-6">
-          <h2 class="text-2xl font-medium mb-4">  Dash Power BI - Anàlisis del movimiento del ganado vacuno en Argentina</h2>
-          <p class="text-base mb-4"> El proyecto analiza el movimiento del ganado bovino en Argentina 
-          durante 2018, identificando patrones de comercialización por provincia, departamento, tipo de
-          agro-negocio y trimestre. A través de un tablero de control, facilita la toma de decisiones en
-          el sector ganadero. Su enfoque busca validar hipótesis y alcanzar objetivos estratégicos en la
-          gestión del ganado. </p>
-          <a href="https://github.com/LaraBerenice/Analisis-Movimiento-Ganado-Vacuno-Argentina-2018" target="_blank" class="btn btn-primary w-full">Más Información</a>
+          <h2 class="text-2xl font-medium mb-4"> Dash Power BI - Anàlisis del movimiento del ganado vacuno en Argentina
+          </h2>
+          <p class="text-base mb-4"> El proyecto analiza el movimiento del ganado bovino en Argentina
+            durante 2018, identificando patrones de comercialización por provincia, departamento, tipo de
+            agro-negocio y trimestre. A través de un tablero de control, facilita la toma de decisiones en
+            el sector ganadero. Su enfoque busca validar hipótesis y alcanzar objetivos estratégicos en la
+            gestión del ganado. </p>
+          <a href="https://github.com/LaraBerenice/Analisis-Movimiento-Ganado-Vacuno-Argentina-2018" target="_blank"
+            class="btn btn-primary w-full">Más Información</a>
         </div>
-        </div>
-
-        <div
-      class="card w-80 bg-base-100 shadow-xl transition-all hover:scale-105 hover:shadow-2xl"
-    >
-      <figure class="p-4">
-        <img
-          src="Imagenes/granos_retail.webp"
-          alt="Proyecto 3"
-          class="w-full h-48 object-cover rounded-lg"
-        />
-      </figure>
-      <div class="card-body p-6">
-        <h2 class="text-2xl font-medium mb-4"> 2 Dash de Analisis de datos en google sheet y en excel </h2>
-        <p class="text-base mb-4"> Análisis de datos en Excel para el sector de granos, optimizando
-        inventarios y detectando tendencias de producción y en Google Sheets, gestionando datos de ventas
-        y stock en una tienda retail, mejorando la toma de decisiones. Ambos análisis ayudaron a optimizar
-        costos y maximizar eficiencia.</p>
-        <a href="https://github.com/LaraBerenice/analisis-de-datos-en-excel-y-en-google-sheet" target="_blank" class="btn btn-primary w-full">Más Información</a>
       </div>
-        </div>
 
-        <div
-    class="card w-80 bg-base-100 shadow-xl transition-all hover:scale-105 hover:shadow-2xl"
-  >
-    <figure class="p-4">
-      <img
-        src="Imagenes/awc.png"
-        alt="Proyecto 4"
-        class="w-full h-48 object-cover rounded-lg"
-      />
-    </figure>
-    <div class="card-body p-6">
-      <h2 class="text-2xl font-medium mb-4">  Dash Power BI- Adventure Works Cycles </h2>
-      <p class="text-base mb-4">El proyecto busco optimizar el análisis de ventas de Adventure Works Cycles
-      mediante la limpieza de datos, un modelo relacional eficiente y cálculos clave en DAX. Se desarrollaro
-      tambien un informe visual e informativo para mejorar la toma de decisiones.</p>
-      <a href="https://github.com/LaraBerenice/Adventure-Works-Cycles_-AWC-" target="_blank" class="btn btn-primary w-full">Más Información</a>
-    </div>
-        </div>
-
-        <div
-  class="card w-80 bg-base-100 shadow-xl transition-all hover:scale-105 hover:shadow-2xl"
->
-  <figure class="p-4">
-    <img
-      src="Imagenes/comidaRapida.png"
-      alt="Proyecto 5"
-      class="w-full h-48 object-cover rounded-lg"
-    />
-  </figure>
-  <div class="card-body p-6">
-    <h2 class="text-2xl font-medium mb-4"> Descubriendo la base de Fast Food - SQL Server - </h2>
-    <p class="text-base mb-4"> El proyecto consolida datos dispersos de "Fast Food" en una base de datos
-      centralizada para mejorar la gestión, escalabilidad y toma de decisiones. Se implementa en SQL con
-      cuatro archivos que diseñan, crean, pueblan y optimizan la base de datos. </p>
-    <a href="https://github.com/LaraBerenice/Descubriendo_la_BD_Fast_Food" target="_blank" class="btn btn-primary w-full">Más Información</a>
-  </div>
-        </div>
-
-        <div
-class="card w-80 bg-base-100 shadow-xl transition-all hover:scale-105 hover:shadow-2xl"
->
-<figure class="p-4">
-  <img
-    src="Imagenes/covid19.png"
-    alt="Proyecto 6"
-    class="w-full h-48 object-cover rounded-lg"
-  />
-</figure>
-<div class="card-body p-6">
-  <h2 class="text-2xl font-medium mb-4"> Anàlisis para laboratorios de vacunaciòn del covid 19 - Power BI con Python -</h2>                             </h2>
-  <p class="text-base mb-4"> Este proyecto analiza la expansión estratégica de laboratorios y centros
-    de vacunación particularmente por el interes de invertir de Biogénesis en Latinoamérica, evaluando
-    la incidencia del COVID-19, tasas de vacunación, infraestructura sanitaria y demanda de vacunas. Se
-    identifican regiones clave y optimizan estrategias logísticas para una distribución eficiente. </p>
-  <a href="https://github.com/LaraBerenice/Analisis_para_laboratorio_de_vacunacion_en_covid_19" target="_blank" class="btn btn-primary w-full">Más Información</a>
-</div>
-        </div>
-
-      </div>
-        
-    </section>
-
-
-    <!-- Competencias Técnicas -->
-    <section
-      id="competencias-tecnicas"
-      class="bg-base-200 min-h-screen py-10 border-box"
-    >
-
-      <div class="text-center">
-        <h1 class="text-5xl font-bold mb-6"> Herramientas Tecnològicas </h1>
-      </div>
-      <div class="flex flex-wrap justify-center gap-8">
-
-        <!-- Competencia Técnica 1 -->
-
-        <div
-          class="card w-40 h-40 bg-base-100 shadow-xl transition-all hover:scale-105 hover:shadow-2xl relative"
-        >
-          <figure class="h-full">
-            <img
-              src="https://img.icons8.com/?size=100&id=101664&format=png&color=000000" width="50" height="50"
-              alt="Competencia 1"
-              class="w-full h-full object-cover rounded-lg"
-            />
-          </figure>
-          <div
-            class="card-body p-2 absolute inset-0 bg-base-100 bg-opacity-90 opacity-0 hover:opacity-100 transition-opacity"
-          >
-            <h2 class="text-lg font-medium"> </h2>
-            <p class="text-sm"> </p>
-          </div>
-        </div>
-
-        <div
-          class="card w-40 h-40 bg-base-100 shadow-xl transition-all hover:scale-105 hover:shadow-2xl relative"
-        >
-          <figure class="h-full">
-            <img
-              src="https://img.icons8.com/?size=80&id=uOsDUfEtcu5S&format=png&color=000000" alt="SQL Server" width="50" height="50"
-              alt="Competencia 2"
-              class="w-full h-full object-cover rounded-lg"
-            />
-          </figure>
-          <div
-            class="card-body p-2 absolute inset-0 bg-base-100 bg-opacity-90 opacity-0 hover:opacity-100 transition-opacity"
-          >
-            <h2 class="text-lg font-medium"> </h2>
-            <p class="text-sm"> </p>
-          </div>
-        </div>
-        
-        <div
-          class="card w-40 h-40 bg-base-100 shadow-xl transition-all hover:scale-105 hover:shadow-2xl relative"
-        >
-          <figure class="h-full">
-            <img
-              src="https://github.com/user-attachments/assets/70bb8b8e-b3ce-48a3-ae6f-5c4cb1db8434" alt="GitHub" width="50" height="50"
-              alt="Competencia 3"
-              class="w-full h-full object-cover rounded-lg"
-            />
-          </figure>
-          <div
-            class="card-body p-2 absolute inset-0 bg-base-100 bg-opacity-90 opacity-0 hover:opacity-100 transition-opacity"
-          >
-            <h2 class="text-lg font-medium"> </h2>
-            <p class="text-sm"> </p>
-          </div>
-        </div>
-        
-        <div
-          class="card w-40 h-40 bg-base-100 shadow-xl transition-all hover:scale-105 hover:shadow-2xl relative"
-        >
-          <figure class="h-full">
-            <img
-              src="https://img.icons8.com/?size=80&id=13441&format=png&color=000000" alt="Python" width="50" height="50"
-              alt="Competencia 4"
-              class="w-full h-full object-cover rounded-lg"
-            />
-          </figure>
-          <div
-            class="card-body p-2 absolute inset-0 bg-base-100 bg-opacity-90 opacity-0 hover:opacity-100 transition-opacity"
-          >
-            <h2 class="text-lg font-medium"> </h2>
-            <p class="text-sm"> </p>
-          </div>
-        </div>
-
-        
-
-        <div
-        class="card w-40 h-40 bg-base-100 shadow-xl transition-all hover:scale-105 hover:shadow-2xl relative"
-      >
-        <figure class="h-full">
-          <img
-            src="https://img.icons8.com/?size=80&id=cdYUlRaag9G9&format=png&color=000000" alt="Docker" width="50" height="50"
-            alt="Competencia 5"
-            class="w-full h-full object-cover rounded-lg"
-          />
+      <div class="card w-80 bg-base-100 shadow-xl transition-all hover:scale-105 hover:shadow-2xl">
+        <figure class="p-4">
+          <img src="Imagenes/granos_retail.webp" alt="Proyecto 3" class="w-full h-48 object-cover rounded-lg" />
         </figure>
-        <div
-          class="card-body p-2 absolute inset-0 bg-base-100 bg-opacity-90 opacity-0 hover:opacity-100 transition-opacity"
-        >
-          <h2 class="text-lg font-medium"> </h2>
-          <p class="text-sm"> </p>
+        <div class="card-body p-6">
+          <h2 class="text-2xl font-medium mb-4"> 2 Dash de Analisis de datos en google sheet y en excel </h2>
+          <p class="text-base mb-4"> Análisis de datos en Excel para el sector de granos, optimizando
+            inventarios y detectando tendencias de producción y en Google Sheets, gestionando datos de ventas
+            y stock en una tienda retail, mejorando la toma de decisiones. Ambos análisis ayudaron a optimizar
+            costos y maximizar eficiencia.</p>
+          <a href="https://github.com/LaraBerenice/analisis-de-datos-en-excel-y-en-google-sheet" target="_blank"
+            class="btn btn-primary w-full">Más Información</a>
         </div>
       </div>
 
-      <div
-        class="card w-40 h-40 bg-base-100 shadow-xl transition-all hover:scale-105 hover:shadow-2xl relative"
-      >
-        <figure class="h-full">
-          <img
-            src="https://github.com/user-attachments/assets/8ff6532e-81c5-4abc-bb0a-dea8e6cf0c79" alt="Apache Airflow" width="50" height="50"
-            alt="Competencia 6"
-            class="w-full h-full object-cover rounded-lg"
-          />
+      <div class="card w-80 bg-base-100 shadow-xl transition-all hover:scale-105 hover:shadow-2xl">
+        <figure class="p-4">
+          <img src="Imagenes/awc.png" alt="Proyecto 4" class="w-full h-48 object-cover rounded-lg" />
         </figure>
-        <div
-          class="card-body p-2 absolute inset-0 bg-base-100 bg-opacity-90 opacity-0 hover:opacity-100 transition-opacity"
-        >
-          <h2 class="text-lg font-medium"> </h2>
-          <p class="text-sm"> </p>
+        <div class="card-body p-6">
+          <h2 class="text-2xl font-medium mb-4"> Dash Power BI- Adventure Works Cycles </h2>
+          <p class="text-base mb-4">El proyecto busco optimizar el análisis de ventas de Adventure Works Cycles
+            mediante la limpieza de datos, un modelo relacional eficiente y cálculos clave en DAX. Se desarrollaro
+            tambien un informe visual e informativo para mejorar la toma de decisiones.</p>
+          <a href="https://github.com/LaraBerenice/Adventure-Works-Cycles_-AWC-" target="_blank"
+            class="btn btn-primary w-full">Más Información</a>
         </div>
       </div>
 
-      <div
-        class="card w-40 h-40 bg-base-100 shadow-xl transition-all hover:scale-105 hover:shadow-2xl relative"
-      >
-        <figure class="h-full">
-          <img
-            src="https://cdn.prod.website-files.com/62d9b9c78f111f03f778e150/655d9c300d7db529318c4afb_Plotly.png"
-            alt="Competencia 7"
-            class="w-full h-full object-cover rounded-lg"
-          />
+      <div class="card w-80 bg-base-100 shadow-xl transition-all hover:scale-105 hover:shadow-2xl">
+        <figure class="p-4">
+          <img src="Imagenes/comidaRapida.png" alt="Proyecto 5" class="w-full h-48 object-cover rounded-lg" />
         </figure>
-        <div
-          class="card-body p-2 absolute inset-0 bg-base-100 bg-opacity-90 opacity-0 hover:opacity-100 transition-opacity"
-        >
-          <h2 class="text-lg font-medium"> </h2>
-          <p class="text-sm"> </p>
+        <div class="card-body p-6">
+          <h2 class="text-2xl font-medium mb-4"> Descubriendo la base de Fast Food - SQL Server - </h2>
+          <p class="text-base mb-4"> El proyecto consolida datos dispersos de "Fast Food" en una base de datos
+            centralizada para mejorar la gestión, escalabilidad y toma de decisiones. Se implementa en SQL con
+            cuatro archivos que diseñan, crean, pueblan y optimizan la base de datos. </p>
+          <a href="https://github.com/LaraBerenice/Descubriendo_la_BD_Fast_Food" target="_blank"
+            class="btn btn-primary w-full">Más Información</a>
         </div>
       </div>
 
-      <div
-          class="card w-40 h-40 bg-base-100 shadow-xl transition-all hover:scale-105 hover:shadow-2xl relative"
-        >
-          <figure class="h-full">
-            <img
-              src="https://img.icons8.com/?size=80&id=qYfwpsRXEcpc&format=png&color=000000" width="50" height="50"
-              alt="Competencia 8"
-              class="w-full h-full object-cover rounded-lg"
-            />
-          </figure>
-          <div
-            class="card-body p-2 absolute inset-0 bg-base-100 bg-opacity-90 opacity-0 hover:opacity-100 transition-opacity"
-          >
-            <h2 class="text-lg font-medium"> </h2>
-            <p class="text-sm"> </p>
-          </div>
-        </div>
-
-        <div
-        class="card w-40 h-40 bg-base-100 shadow-xl transition-all hover:scale-105 hover:shadow-2xl relative"
-      >
-        <figure class="h-full">
-          <img
-            src="https://img.icons8.com/?size=100&id=9Kvi1p1F0tUo&format=png&color=000000"
-            alt="Competencia 9"
-            class="w-full h-full object-cover rounded-lg"
-          />
+      <div class="card w-80 bg-base-100 shadow-xl transition-all hover:scale-105 hover:shadow-2xl">
+        <figure class="p-4">
+          <img src="Imagenes/covid19.png" alt="Proyecto 6" class="w-full h-48 object-cover rounded-lg" />
         </figure>
-        <div
-          class="card-body p-2 absolute inset-0 bg-base-100 bg-opacity-90 opacity-0 hover:opacity-100 transition-opacity"
-        >
-          <h2 class="text-lg font-medium"> </h2>
-          <p class="text-sm"> </p>
+        <div class="card-body p-6">
+          <h2 class="text-2xl font-medium mb-4"> Anàlisis para laboratorios de vacunaciòn del covid 19 - Power BI con
+            Python -</h2>
+          </h2>
+          <p class="text-base mb-4"> Este proyecto analiza la expansión estratégica de laboratorios y centros
+            de vacunación particularmente por el interes de invertir de Biogénesis en Latinoamérica, evaluando
+            la incidencia del COVID-19, tasas de vacunación, infraestructura sanitaria y demanda de vacunas. Se
+            identifican regiones clave y optimizan estrategias logísticas para una distribución eficiente. </p>
+          <a href="https://github.com/LaraBerenice/Analisis_para_laboratorio_de_vacunacion_en_covid_19" target="_blank"
+            class="btn btn-primary w-full">Más Información</a>
         </div>
       </div>
 
-      <div
-      class="card w-40 h-40 bg-base-100 shadow-xl transition-all hover:scale-105 hover:shadow-2xl relative"
-    >
-      <figure class="h-full">
-        <img
-          src="https://img.icons8.com/?size=100&id=SruJhzn0nnLl&format=png&color=000000"
-          alt="Competencia 10"
-          class="w-full h-full object-cover rounded-lg"
-        />
-      </figure>
-      <div
-        class="card-body p-2 absolute inset-0 bg-base-100 bg-opacity-90 opacity-0 hover:opacity-100 transition-opacity"
-      >
-        <h2 class="text-lg font-medium"> </h2>
-        <p class="text-sm"> </p>
-      </div>
     </div>
 
-    <div
-    class="card w-40 h-40 bg-base-100 shadow-xl transition-all hover:scale-105 hover:shadow-2xl relative"
-  >
-    <figure class="h-full">
-      <img
-        src="https://img.icons8.com/?size=80&id=30461&format=png&color=000000" alt="Google Sheets"
-        alt="Competencia 11"
-        class="w-full h-full object-cover rounded-lg"
-      />
-    </figure>
-    <div
-      class="card-body p-2 absolute inset-0 bg-base-100 bg-opacity-90 opacity-0 hover:opacity-100 transition-opacity"
-    >
-      <h2 class="text-lg font-medium"> </h2>
-      <p class="text-sm"> </p>
+  </section>
+
+
+  <!-- Competencias Técnicas -->
+  <section id="competencias-tecnicas" class="bg-base-200 min-h-screen py-10 border-box">
+
+    <div class="text-center">
+      <h1 class="text-5xl font-bold mb-6"> Herramientas Tecnològicas </h1>
     </div>
-  </div>
+    <div class="flex flex-wrap justify-center gap-8">
 
-  <div
-  class="card w-40 h-40 bg-base-100 shadow-xl transition-all hover:scale-105 hover:shadow-2xl relative"
->
-  <figure class="h-full">
-    <img
-      src="https://img.icons8.com/?size=100&id=UECmBSgBOvPT&format=png&color=000000" alt="Excel" alt="Google Sheets"
-      alt="Competencia 12"
-      class="w-full h-full object-cover rounded-lg"
-    />
-  </figure>
-  <div
-    class="card-body p-2 absolute inset-0 bg-base-100 bg-opacity-90 opacity-0 hover:opacity-100 transition-opacity"
-  >
-    <h2 class="text-lg font-medium"> </h2>
-    <p class="text-sm"> </p>
-  </div>
-</div>
+      <!-- Competencia Técnica 1 -->
 
-          <!-- Final competencias tecnicas-->
-
-      </div>
-    </section>
-    
-    <!-- Footer -->
-    <footer class="footer p-10 bg-base-100 text-base-content">
-      <div>
-        <span class="footer-title">Redes Sociales</span>
-        <div class="grid grid-flow-col gap-4">
-          <a
-            href="http://www.linkedin.com/in/lara-berenice-ledesma-89527332b"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              fill="#0077B5"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M22.23 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.21 0 22.23 0zM7.06 20.45H3.56V9h3.5v11.45zM5.31 7.5c-1.12 0-2.03-.91-2.03-2.03s.91-2.03 2.03-2.03 2.03.91 2.03 2.03-.91 2.03-2.03 2.03zM20.45 20.45h-3.5v-5.6c0-1.34-.03-3.07-1.87-3.07-1.87 0-2.16 1.46-2.16 2.97v5.7h-3.5V9h3.36v1.56h.05c.47-.89 1.61-1.83 3.31-1.83 3.54 0 4.19 2.33 4.19 5.36v6.36z"
-              />
-            </svg>
-          </a>
-          <a
-            href="https://github.com/LaraBerenice"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              fill="#181717"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.11.82-.26.82-.577v-2.17c-3.338.726-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.757-1.333-1.757-1.09-.745.083-.73.083-.73 1.205.084 1.84 1.237 1.84 1.237 1.07 1.835 2.807 1.305 3.492.997.108-.775.42-1.305.763-1.605-2.665-.3-5.467-1.335-5.467-5.93 0-1.31.467-2.38 1.235-3.22-.123-.303-.535-1.523.117-3.176 0 0 1.008-.322 3.3 1.23.957-.266 1.98-.398 3-.403 1.02.005 2.043.137 3 .403 2.29-1.552 3.297-1.23 3.297-1.23.653 1.653.24 2.873.118 3.176.77.84 1.233 1.91 1.233 3.22 0 4.61-2.807 5.625-5.48 5.92.43.37.823 1.1.823 2.22v3.293c0 .32.217.694.825.577C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12z"
-              />
-            </svg>
-          </a>
+      <div class="card w-40 h-40 bg-base-100 shadow-xl transition-all hover:scale-105 hover:shadow-2xl relative">
+        <figure class="h-full">
+          <img src="https://img.icons8.com/?size=100&id=101664&format=png&color=000000" width="50" height="50"
+            alt="Competencia 1" class="w-full h-full object-cover rounded-lg" />
+        </figure>
+        <div
+          class="card-body p-2 absolute inset-0 bg-base-100 bg-opacity-90 opacity-0 hover:opacity-100 transition-opacity">
+          <h2 class="text-lg font-medium"> </h2>
+          <p class="text-sm"> </p>
         </div>
       </div>
-      <div>
-        <span class="footer-title">Contacto</span>
-        <p>Email: lara.ledesma12345@gmail.com</p>
-        <p>Email: berenice.ledesma12345@gmail.com</p>
+
+      <div class="card w-40 h-40 bg-base-100 shadow-xl transition-all hover:scale-105 hover:shadow-2xl relative">
+        <figure class="h-full">
+          <img src="https://img.icons8.com/?size=80&id=uOsDUfEtcu5S&format=png&color=000000" alt="SQL Server" width="50"
+            height="50" alt="Competencia 2" class="w-full h-full object-cover rounded-lg" />
+        </figure>
+        <div
+          class="card-body p-2 absolute inset-0 bg-base-100 bg-opacity-90 opacity-0 hover:opacity-100 transition-opacity">
+          <h2 class="text-lg font-medium"> </h2>
+          <p class="text-sm"> </p>
+        </div>
       </div>
-    </footer>
-  </body>
+
+      <div class="card w-40 h-40 bg-base-100 shadow-xl transition-all hover:scale-105 hover:shadow-2xl relative">
+        <figure class="h-full">
+          <img src="https://github.com/user-attachments/assets/70bb8b8e-b3ce-48a3-ae6f-5c4cb1db8434" alt="GitHub"
+            width="50" height="50" alt="Competencia 3" class="w-full h-full object-cover rounded-lg" />
+        </figure>
+        <div
+          class="card-body p-2 absolute inset-0 bg-base-100 bg-opacity-90 opacity-0 hover:opacity-100 transition-opacity">
+          <h2 class="text-lg font-medium"> </h2>
+          <p class="text-sm"> </p>
+        </div>
+      </div>
+
+      <div class="card w-40 h-40 bg-base-100 shadow-xl transition-all hover:scale-105 hover:shadow-2xl relative">
+        <figure class="h-full">
+          <img src="https://img.icons8.com/?size=80&id=13441&format=png&color=000000" alt="Python" width="50"
+            height="50" alt="Competencia 4" class="w-full h-full object-cover rounded-lg" />
+        </figure>
+        <div
+          class="card-body p-2 absolute inset-0 bg-base-100 bg-opacity-90 opacity-0 hover:opacity-100 transition-opacity">
+          <h2 class="text-lg font-medium"> </h2>
+          <p class="text-sm"> </p>
+        </div>
+      </div>
+
+
+
+      <div class="card w-40 h-40 bg-base-100 shadow-xl transition-all hover:scale-105 hover:shadow-2xl relative">
+        <figure class="h-full">
+          <img src="https://img.icons8.com/?size=80&id=cdYUlRaag9G9&format=png&color=000000" alt="Docker" width="50"
+            height="50" alt="Competencia 5" class="w-full h-full object-cover rounded-lg" />
+        </figure>
+        <div
+          class="card-body p-2 absolute inset-0 bg-base-100 bg-opacity-90 opacity-0 hover:opacity-100 transition-opacity">
+          <h2 class="text-lg font-medium"> </h2>
+          <p class="text-sm"> </p>
+        </div>
+      </div>
+
+      <div class="card w-40 h-40 bg-base-100 shadow-xl transition-all hover:scale-105 hover:shadow-2xl relative">
+        <figure class="h-full">
+          <img src="https://github.com/user-attachments/assets/8ff6532e-81c5-4abc-bb0a-dea8e6cf0c79"
+            alt="Apache Airflow" width="50" height="50" alt="Competencia 6"
+            class="w-full h-full object-cover rounded-lg" />
+        </figure>
+        <div
+          class="card-body p-2 absolute inset-0 bg-base-100 bg-opacity-90 opacity-0 hover:opacity-100 transition-opacity">
+          <h2 class="text-lg font-medium"> </h2>
+          <p class="text-sm"> </p>
+        </div>
+      </div>
+
+      <div class="card w-40 h-40 bg-base-100 shadow-xl transition-all hover:scale-105 hover:shadow-2xl relative">
+        <figure class="h-full">
+          <img src="https://cdn.prod.website-files.com/62d9b9c78f111f03f778e150/655d9c300d7db529318c4afb_Plotly.png"
+            alt="Competencia 7" class="w-full h-full object-cover rounded-lg" />
+        </figure>
+        <div
+          class="card-body p-2 absolute inset-0 bg-base-100 bg-opacity-90 opacity-0 hover:opacity-100 transition-opacity">
+          <h2 class="text-lg font-medium"> </h2>
+          <p class="text-sm"> </p>
+        </div>
+      </div>
+
+      <div class="card w-40 h-40 bg-base-100 shadow-xl transition-all hover:scale-105 hover:shadow-2xl relative">
+        <figure class="h-full">
+          <img src="https://img.icons8.com/?size=80&id=qYfwpsRXEcpc&format=png&color=000000" width="50" height="50"
+            alt="Competencia 8" class="w-full h-full object-cover rounded-lg" />
+        </figure>
+        <div
+          class="card-body p-2 absolute inset-0 bg-base-100 bg-opacity-90 opacity-0 hover:opacity-100 transition-opacity">
+          <h2 class="text-lg font-medium"> </h2>
+          <p class="text-sm"> </p>
+        </div>
+      </div>
+
+      <div class="card w-40 h-40 bg-base-100 shadow-xl transition-all hover:scale-105 hover:shadow-2xl relative">
+        <figure class="h-full">
+          <img src="https://img.icons8.com/?size=100&id=9Kvi1p1F0tUo&format=png&color=000000" alt="Competencia 9"
+            class="w-full h-full object-cover rounded-lg" />
+        </figure>
+        <div
+          class="card-body p-2 absolute inset-0 bg-base-100 bg-opacity-90 opacity-0 hover:opacity-100 transition-opacity">
+          <h2 class="text-lg font-medium"> </h2>
+          <p class="text-sm"> </p>
+        </div>
+      </div>
+
+      <div class="card w-40 h-40 bg-base-100 shadow-xl transition-all hover:scale-105 hover:shadow-2xl relative">
+        <figure class="h-full">
+          <img src="https://img.icons8.com/?size=100&id=SruJhzn0nnLl&format=png&color=000000" alt="Competencia 10"
+            class="w-full h-full object-cover rounded-lg" />
+        </figure>
+        <div
+          class="card-body p-2 absolute inset-0 bg-base-100 bg-opacity-90 opacity-0 hover:opacity-100 transition-opacity">
+          <h2 class="text-lg font-medium"> </h2>
+          <p class="text-sm"> </p>
+        </div>
+      </div>
+
+      <div class="card w-40 h-40 bg-base-100 shadow-xl transition-all hover:scale-105 hover:shadow-2xl relative">
+        <figure class="h-full">
+          <img src="https://img.icons8.com/?size=80&id=30461&format=png&color=000000" alt="Google Sheets"
+            alt="Competencia 11" class="w-full h-full object-cover rounded-lg" />
+        </figure>
+        <div
+          class="card-body p-2 absolute inset-0 bg-base-100 bg-opacity-90 opacity-0 hover:opacity-100 transition-opacity">
+          <h2 class="text-lg font-medium"> </h2>
+          <p class="text-sm"> </p>
+        </div>
+      </div>
+
+      <div class="card w-40 h-40 bg-base-100 shadow-xl transition-all hover:scale-105 hover:shadow-2xl relative">
+        <figure class="h-full">
+          <img src="https://img.icons8.com/?size=100&id=UECmBSgBOvPT&format=png&color=000000" alt="Excel"
+            alt="Google Sheets" alt="Competencia 12" class="w-full h-full object-cover rounded-lg" />
+        </figure>
+        <div
+          class="card-body p-2 absolute inset-0 bg-base-100 bg-opacity-90 opacity-0 hover:opacity-100 transition-opacity">
+          <h2 class="text-lg font-medium"> </h2>
+          <p class="text-sm"> </p>
+        </div>
+      </div>
+
+      <!-- Final competencias tecnicas-->
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer p-10 bg-base-100 text-base-content">
+    <div>
+      <span class="footer-title">Redes Sociales</span>
+      <div class="grid grid-flow-col gap-4">
+        <a href="http://www.linkedin.com/in/lara-berenice-ledesma-89527332b" target="_blank" rel="noopener noreferrer">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#0077B5" viewBox="0 0 24 24">
+            <path
+              d="M22.23 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.21 0 22.23 0zM7.06 20.45H3.56V9h3.5v11.45zM5.31 7.5c-1.12 0-2.03-.91-2.03-2.03s.91-2.03 2.03-2.03 2.03.91 2.03 2.03-.91 2.03-2.03 2.03zM20.45 20.45h-3.5v-5.6c0-1.34-.03-3.07-1.87-3.07-1.87 0-2.16 1.46-2.16 2.97v5.7h-3.5V9h3.36v1.56h.05c.47-.89 1.61-1.83 3.31-1.83 3.54 0 4.19 2.33 4.19 5.36v6.36z" />
+          </svg>
+        </a>
+        <a href="https://github.com/LaraBerenice" target="_blank" rel="noopener noreferrer">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#181717" viewBox="0 0 24 24">
+            <path
+              d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.11.82-.26.82-.577v-2.17c-3.338.726-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.757-1.333-1.757-1.09-.745.083-.73.083-.73 1.205.084 1.84 1.237 1.84 1.237 1.07 1.835 2.807 1.305 3.492.997.108-.775.42-1.305.763-1.605-2.665-.3-5.467-1.335-5.467-5.93 0-1.31.467-2.38 1.235-3.22-.123-.303-.535-1.523.117-3.176 0 0 1.008-.322 3.3 1.23.957-.266 1.98-.398 3-.403 1.02.005 2.043.137 3 .403 2.29-1.552 3.297-1.23 3.297-1.23.653 1.653.24 2.873.118 3.176.77.84 1.233 1.91 1.233 3.22 0 4.61-2.807 5.625-5.48 5.92.43.37.823 1.1.823 2.22v3.293c0 .32.217.694.825.577C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12z" />
+          </svg>
+        </a>
+      </div>
+    </div>
+    <div>
+      <span class="footer-title">Contacto</span>
+      <p>Email: lara.ledesma12345@gmail.com</p>
+      <p>Email: berenice.ledesma12345@gmail.com</p>
+    </div>
+  </footer>
+</body>
+
 </html>
-
-
